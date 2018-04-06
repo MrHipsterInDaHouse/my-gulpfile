@@ -20,4 +20,4 @@ browserSync({
 
 gulp.task('watch',['browser-sync', 'sass'], function() {
   gulp.watch('app/sass/**/*.sass', ['sass']);
-});# my-gulpfile
+});
